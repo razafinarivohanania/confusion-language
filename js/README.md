@@ -35,3 +35,17 @@ default export variable;
 ```js
 export default variable;
 ```
+
+### Read object data from illegal key characters
+
+* Wrong :
+
+```js
+const value = objet.key-0;
+```
+
+* Correct :
+
+```js
+const value = object['key-0'];
+```
