@@ -15,9 +15,23 @@ class Class {
 
 ```js
 class Class {
-    
+
     static async method() {
         //TODO
     }
 }
+```
+
+## Export variable
+
+* Wrong :
+
+```js
+default export variable;
+```
+
+* Correct :
+
+```js
+export default variable;
 ```
